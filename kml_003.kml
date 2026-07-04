@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Cao tốc Express-way + Đường vành đai Ring-road</name>
+    <name>MAP_kml_003</name>
     <Style id="line-01579B-7781-nodesc-normal">
       <LineStyle>
         <color>ff9b5701</color>
