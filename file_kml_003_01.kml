@@ -86,17 +86,17 @@
         <width>9.9285</width>
       </LineStyle>
     </Style>
-<Style id="Emma_LightPurple_Style">
-  <LineStyle>
+	<Style id="Emma_LightPurple_Style">
+	<LineStyle>
     <color>ffce93d8</color> <!-- Viền màu tím -->
     <width>2</width>
-  </LineStyle>
-  <PolyStyle>
-    <color>80ce93d8</color> <!-- Màu tím nhạt (độ trong suốt 50%) -->
-    <fill>1</fill>
-    <outline>1</outline>
-  </PolyStyle>
-</Style>
+	</LineStyle>
+	<PolyStyle>
+		<color>80ce93d8</color> <!-- Màu tím nhạt (độ trong suốt 50%) -->
+		<fill>1</fill>
+		<outline>1</outline>
+		</PolyStyle>
+	</Style>
     <StyleMap id="line-F57C00-6619">
       <Pair>
         <key>normal</key>
@@ -213,8 +213,6 @@
         </coordinates>
       </LineString>
     </Placemark>
-  </Document>
-</kml>
     <Placemark>
       <name>thuadat 7,800m2</name>
       <description><???></description>
@@ -363,8 +361,8 @@
     <Placemark>
       <name>16,8ty dt 900m2</name>
       <description><![CDATA[có 800m2 thổ cư></description>
-      <styleUrl>#Emma_LightPurple_Style</styleUrl>
       <Polygon>
+      <styleUrl>#Emma_LightPurple_Style</styleUrl>
         <outerBoundaryIs>
           <LinearRing>
             <tessellate>1</tessellate>
@@ -381,24 +379,26 @@
         </outerBoundaryIs>
       </Polygon>
     </Placemark>
-    <Placemark>
-      <name>19ty dt 3,800m2</name>
-      <description><![CDATA[đất nông nghiệp HNK></description>
-      <styleUrl>#Emma_LightPurple_Style</styleUrl>
-      <Polygon>
-        <outerBoundaryIs>
-          <LinearRing>
-            <tessellate>1</tessellate>
-            <coordinates>
-              106.9246563,10.4010043,0
-              106.9246885,10.4002828,0
-              106.9253081,10.400317,0
-              106.9252491,10.4006969,0
-              106.9249594,10.40066,0
-              106.9249219,10.4010504,0
-              106.9246563,10.4010043,0
-            </coordinates>
-          </LinearRing>
-        </outerBoundaryIs>
-      </Polygon>
-    </Placemark>
+	<Placemark>
+	  <name>19ty dt 3,800m2</name>
+	  <description><![CDATA[đất nông nghiệp HNK></description>
+	  <styleUrl>#Emma_LightPurple_Style</styleUrl>
+	  <Polygon>
+		<outerBoundaryIs>
+		  <LinearRing>
+			<tessellate>1</tessellate>
+			<coordinates>
+			  106.9246563,10.4010043,0
+			  106.9246885,10.4002828,0
+			  106.9253081,10.400317,0
+			  106.9252491,10.4006969,0
+			  106.9249594,10.40066,0
+			  106.9249219,10.4010504,0
+			  106.9246563,10.4010043,0
+			</coordinates>
+		  </LinearRing>
+		</outerBoundaryIs>
+	  </Polygon>
+	</Placemark>
+	</Document>
+</kml>
