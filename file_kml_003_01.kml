@@ -86,6 +86,17 @@
         <width>9.9285</width>
       </LineStyle>
     </Style>
+<Style id="Emma_LightPurple_Style">
+  <LineStyle>
+    <color>ffce93d8</color> <!-- Viền màu tím -->
+    <width>2</width>
+  </LineStyle>
+  <PolyStyle>
+    <color>80ce93d8</color> <!-- Màu tím nhạt (độ trong suốt 50%) -->
+    <fill>1</fill>
+    <outline>1</outline>
+  </PolyStyle>
+</Style>
     <StyleMap id="line-F57C00-6619">
       <Pair>
         <key>normal</key>
@@ -207,7 +218,7 @@
     <Placemark>
       <name>thuadat 7,800m2</name>
       <description><???></description>
-      <styleUrl>#poly-CE93D8-1200-138</styleUrl>    
+      <styleUrl>#Emma_LightPurple_Style</styleUrl>    
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
@@ -235,7 +246,7 @@
     <Placemark>
       <name>33 ty 600m2</name>
       <description><![CDATA[17.5 x 35.0 dt 600m2 bao gồm 300m2 thổ cư, chưa kiểm tra QH XD></description>
-      <styleUrl>#poly-FBC02D-1200-194</styleUrl>
+      <styleUrl>#Emma_LightPurple_Style</styleUrl>
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
@@ -255,7 +266,7 @@
     <Placemark>
       <name>23,7 ty dt887m2</name>
       <description><![CDATA[24, x37m dt 887m2 gồm 379m2 thổ cư, giá 27tr/m2. bị quy hoạch lộ giới 1 phần.></description>
-      <styleUrl>#poly-FBC02D-1200-186</styleUrl>
+      <styleUrl>#Emma_LightPurple_Style</styleUrl>
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
@@ -274,7 +285,7 @@
     <Placemark>
       <name>19ty dt764m2</name>
       <description><![CDATA[7,5m, nở hậu 9,8m x 80, • 764m2 đất có sẵn nhà trên đất. Gồm: 569m2 thổ cư, 195 m2 CLN (QH thổ cư có thể chuyển thổ)></description>
-      <styleUrl>#poly-FBC02D-1200-194</styleUrl> 
+      <styleUrl>#Emma_LightPurple_Style</styleUrl> 
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
@@ -294,7 +305,7 @@
     <Placemark>
       <name>thuadat 2000m2</name>
       <description><![CDATA[bị quy hoạch hơn 80% rồi></description>
-      <styleUrl>#poly-4E342E-1200-230</styleUrl>
+      <styleUrl>#Emma_LightPurple_Style</styleUrl>
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
@@ -313,7 +324,7 @@
     <Placemark>
       <name>42,3ty dt 2600m2</name>
       <description><![CDATA[2600 m2, trong đó 1723m2 thổ cư></description>
-      <styleUrl>#poly-CE93D8-1200-235</styleUrl>
+      <styleUrl>#Emma_LightPurple_Style</styleUrl>
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
@@ -333,7 +344,7 @@
     <Placemark>
       <name>50 ty dt 995m2</name>
       <description><[995m2, thổ cư 922m2.<br>Vị trí đối diện chợ Hòa Hiệp, theo quy hoạch có mở đường ở bên phải đất, thông từ Lương Văn Nho ra khu tái định cư phía sau.></description>
-      <styleUrl>#poly-CE93D8-1200-255</styleUrl>
+      <styleUrl>#Emma_LightPurple_Style</styleUrl>
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
@@ -352,7 +363,7 @@
     <Placemark>
       <name>16,8ty dt 900m2</name>
       <description><![CDATA[có 800m2 thổ cư></description>
-      <styleUrl>#poly-CE93D8-1200-232</styleUrl>
+      <styleUrl>#Emma_LightPurple_Style</styleUrl>
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
@@ -373,7 +384,7 @@
     <Placemark>
       <name>19ty dt 3,800m2</name>
       <description><![CDATA[đất nông nghiệp HNK></description>
-      <styleUrl>#poly-CE93D8-1200-176</styleUrl>
+      <styleUrl>#Emma_LightPurple_Style</styleUrl>
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
