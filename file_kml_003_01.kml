@@ -202,6 +202,8 @@
         </coordinates>
       </LineString>
     </Placemark>
+  </Document>
+</kml>
     <Placemark>
       <name>thuadat 7,800m2</name>
       <description><???></description>
@@ -330,7 +332,7 @@
     </Placemark>
     <Placemark>
       <name>50 ty dt 995m2</name>
-      <description><![CDATA[995m2, thổ cư 922m2.<br>Vị trí đối diện chợ Hòa Hiệp, theo quy hoạch có mở đường ở bên phải đất, thông từ Lương Văn Nho ra khu tái định cư phía sau.></description>
+      <description><[995m2, thổ cư 922m2.<br>Vị trí đối diện chợ Hòa Hiệp, theo quy hoạch có mở đường ở bên phải đất, thông từ Lương Văn Nho ra khu tái định cư phía sau.></description>
       <styleUrl>#poly-CE93D8-1200-255</styleUrl>
       <Polygon>
         <outerBoundaryIs>
@@ -389,5 +391,3 @@
         </outerBoundaryIs>
       </Polygon>
     </Placemark>
-  </Document>
-</kml>
