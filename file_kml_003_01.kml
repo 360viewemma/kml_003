@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>MAP_kml_003</name>
+    <name>file_kml_003</name>
     <Style id="line-01579B-7781-nodesc-normal">
       <LineStyle>
         <color>ff9b5701</color>
