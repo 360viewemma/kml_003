@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>file_kml_003</name>
+    <name>file_kml_003_02</name>
     <Style id="line-01579B-7781-nodesc-normal">
       <LineStyle>
         <color>ff9b5701</color>
-        <width>7.781</width>
+        <width>3.781</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -14,7 +14,7 @@
     <Style id="line-01579B-7781-nodesc-highlight">
       <LineStyle>
         <color>ff9b5701</color>
-        <width>11.6715</width>
+        <width>3.6715</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -33,13 +33,13 @@
     <Style id="line-01579B-8169-normal">
       <LineStyle>
         <color>ff9b5701</color>
-        <width>8.169</width>
+        <width>4.169</width>
       </LineStyle>
     </Style>
     <Style id="line-01579B-8169-highlight">
       <LineStyle>
         <color>ff9b5701</color>
-        <width>12.2535</width>
+        <width>5.2535</width>
       </LineStyle>
     </Style>
     <StyleMap id="line-01579B-8169">
@@ -61,7 +61,7 @@
     <Style id="line-097138-4875-highlight">
       <LineStyle>
         <color>ff387109</color>
-        <width>7.3125</width>
+        <width>3.3125</width>
       </LineStyle>
     </Style>
     <StyleMap id="line-097138-4875">
@@ -77,26 +77,15 @@
     <Style id="line-F57C00-6619-normal">
       <LineStyle>
         <color>ff007cf5</color>
-        <width>6.619</width>
+        <width>3.619</width>
       </LineStyle>
     </Style>
     <Style id="line-F57C00-6619-highlight">
       <LineStyle>
         <color>ff007cf5</color>
-        <width>9.9285</width>
+        <width>3.9285</width>
       </LineStyle>
     </Style>
-<Style id="Emma_LightPurple_Style">
-  <LineStyle>
-    <color>ffce93d8</color> <!-- Viền màu tím -->
-    <width>2</width>
-  </LineStyle>
-  <PolyStyle>
-    <color>80ce93d8</color> <!-- Màu tím nhạt (độ trong suốt 50%) -->
-    <fill>1</fill>
-    <outline>1</outline>
-  </PolyStyle>
-</Style>
     <StyleMap id="line-F57C00-6619">
       <Pair>
         <key>normal</key>
@@ -107,6 +96,59 @@
         <styleUrl>#line-F57C00-6619-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="poly-CE93D8-1200-176-normal">
+      <LineStyle>
+        <color>ffd893ce</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>b0d893ce</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-CE93D8-1200-176-highlight">
+      <LineStyle>
+        <color>ffd893ce</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>b0d893ce</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-CE93D8-1200-176">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-CE93D8-1200-176-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-CE93D8-1200-176-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>19ty dt 3,800m2</name>
+      <description>đất nông nghiệp HNK</description>
+      <styleUrl>#poly-CE93D8-1200-176</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              106.9246563,10.4010043,0
+              106.9246885,10.4002828,0
+              106.9253081,10.400317,0
+              106.9252491,10.4006969,0
+              106.9249594,10.40066,0
+              106.9249219,10.4010504,0
+              106.9246563,10.4010043,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
     <Placemark>
       <name>Vành đai 3</name>
       <description>Đang hoàn tất đền bù, một vài đoạn đã thi công xong.</description>
@@ -212,193 +254,6 @@
           106.7639447,10.8028344,0
         </coordinates>
       </LineString>
-    </Placemark>
-    <Placemark>
-      <name>thuadat 7,800m2</name>
-      <description><???></description>
-      <styleUrl>#Emma_LightPurple_Style</styleUrl>    
-      <Polygon>
-        <outerBoundaryIs>
-          <LinearRing>
-            <tessellate>1</tessellate>
-            <coordinates>
-              106.9224027,10.4011108,0
-              106.922388,10.4006519,0
-              106.922241,10.4006514,0
-              106.9222458,10.4005319,0
-              106.9221104,10.4005345,0
-              106.9221532,10.3998248,0
-              106.922679,10.399892,0
-              106.9227326,10.3999421,0
-              106.9227892,10.3998922,0
-              106.9229619,10.399929,0
-              106.9229284,10.4002139,0
-              106.922683,10.400198,0
-              106.9226119,10.4011042,0
-              106.9224027,10.4011108,0
-            </coordinates>
-          </LinearRing>
-        </outerBoundaryIs>
-      </Polygon>
-    </Placemark>
-    <Placemark>
-      <name>33 ty 600m2</name>
-      <description><![CDATA[17.5 x 35.0 dt 600m2 bao gồm 300m2 thổ cư, chưa kiểm tra QH XD></description>
-      <styleUrl>#Emma_LightPurple_Style</styleUrl>
-      <Polygon>
-        <outerBoundaryIs>
-          <LinearRing>
-            <tessellate>1</tessellate>
-            <coordinates>
-              106.9169303,10.3864215,0
-              106.9168445,10.3862843,0
-              106.9170724,10.3861445,0
-              106.9171368,10.3862579,0
-              106.9171167,10.3863107,0
-              106.9169303,10.3864215,0
-            </coordinates>
-          </LinearRing>
-        </outerBoundaryIs>
-      </Polygon>
-    </Placemark>
-    <Placemark>
-      <name>23,7 ty dt887m2</name>
-      <description><![CDATA[24, x37m dt 887m2 gồm 379m2 thổ cư, giá 27tr/m2. bị quy hoạch lộ giới 1 phần.></description>
-      <styleUrl>#Emma_LightPurple_Style</styleUrl>
-      <Polygon>
-        <outerBoundaryIs>
-          <LinearRing>
-            <tessellate>1</tessellate>
-            <coordinates>
-              106.9438667,10.4080826,0
-              106.9438291,10.4082844,0
-              106.9435139,10.4082105,0
-              106.9435595,10.4080087,0
-              106.9438667,10.4080826,0
-            </coordinates>
-          </LinearRing>
-        </outerBoundaryIs>
-      </Polygon>
-    </Placemark>
-    <Placemark>
-      <name>19ty dt764m2</name>
-      <description><![CDATA[7,5m, nở hậu 9,8m x 80, • 764m2 đất có sẵn nhà trên đất. Gồm: 569m2 thổ cư, 195 m2 CLN (QH thổ cư có thể chuyển thổ)></description>
-      <styleUrl>#Emma_LightPurple_Style</styleUrl> 
-      <Polygon>
-        <outerBoundaryIs>
-          <LinearRing>
-            <tessellate>1</tessellate>
-            <coordinates>
-              106.9503458,10.4118426,0
-              106.9503941,10.411373,0
-              106.9504786,10.411377,0
-              106.9504343,10.4117344,0
-              106.9504061,10.411861,0
-              106.9503458,10.4118426,0
-            </coordinates>
-          </LinearRing>
-        </outerBoundaryIs>
-      </Polygon>
-    </Placemark>
-    <Placemark>
-      <name>thuadat 2000m2</name>
-      <description><![CDATA[bị quy hoạch hơn 80% rồi></description>
-      <styleUrl>#Emma_LightPurple_Style</styleUrl>
-      <Polygon>
-        <outerBoundaryIs>
-          <LinearRing>
-            <tessellate>1</tessellate>
-            <coordinates>
-              106.9191934,10.4002254,0
-              106.9195368,10.400141,0
-              106.9196226,10.4005024,0
-              106.91929,10.4005789,0
-              106.9191934,10.4002254,0
-            </coordinates>
-          </LinearRing>
-        </outerBoundaryIs>
-      </Polygon>
-    </Placemark>
-    <Placemark>
-      <name>42,3ty dt 2600m2</name>
-      <description><![CDATA[2600 m2, trong đó 1723m2 thổ cư></description>
-      <styleUrl>#Emma_LightPurple_Style</styleUrl>
-      <Polygon>
-        <outerBoundaryIs>
-          <LinearRing>
-            <tessellate>1</tessellate>
-            <coordinates>
-              106.9212544,10.4006382,0
-              106.92141,10.4013004,0
-              106.9211177,10.4013822,0
-              106.9210761,10.4010735,0
-              106.9209286,10.4007358,0
-              106.9212544,10.4006382,0
-            </coordinates>
-          </LinearRing>
-        </outerBoundaryIs>
-      </Polygon>
-    </Placemark>
-    <Placemark>
-      <name>50 ty dt 995m2</name>
-      <description><[995m2, thổ cư 922m2.<br>Vị trí đối diện chợ Hòa Hiệp, theo quy hoạch có mở đường ở bên phải đất, thông từ Lương Văn Nho ra khu tái định cư phía sau.></description>
-      <styleUrl>#Emma_LightPurple_Style</styleUrl>
-      <Polygon>
-        <outerBoundaryIs>
-          <LinearRing>
-            <tessellate>1</tessellate>
-            <coordinates>
-              106.923634,10.4023215,0
-              106.9235777,10.4027779,0
-              106.9233631,10.40277,0
-              106.923339,10.4022793,0
-              106.923634,10.4023215,0
-            </coordinates>
-          </LinearRing>
-        </outerBoundaryIs>
-      </Polygon>
-    </Placemark>
-    <Placemark>
-      <name>16,8ty dt 900m2</name>
-      <description><![CDATA[có 800m2 thổ cư></description>
-      <styleUrl>#Emma_LightPurple_Style</styleUrl>
-      <Polygon>
-        <outerBoundaryIs>
-          <LinearRing>
-            <tessellate>1</tessellate>
-            <coordinates>
-              106.9232381,10.4015911,0
-              106.9232381,10.4015277,0
-              106.9233722,10.4015291,0
-              106.9233843,10.4013233,0
-              106.9235814,10.4013338,0
-              106.9235694,10.4015937,0
-              106.9232381,10.4015911,0
-            </coordinates>
-          </LinearRing>
-        </outerBoundaryIs>
-      </Polygon>
-    </Placemark>
-    <Placemark>
-      <name>19ty dt 3,800m2</name>
-      <description><![CDATA[đất nông nghiệp HNK></description>
-      <styleUrl>#Emma_LightPurple_Style</styleUrl>
-      <Polygon>
-        <outerBoundaryIs>
-          <LinearRing>
-            <tessellate>1</tessellate>
-            <coordinates>
-              106.9246563,10.4010043,0
-              106.9246885,10.4002828,0
-              106.9253081,10.400317,0
-              106.9252491,10.4006969,0
-              106.9249594,10.40066,0
-              106.9249219,10.4010504,0
-              106.9246563,10.4010043,0
-            </coordinates>
-          </LinearRing>
-        </outerBoundaryIs>
-      </Polygon>
     </Placemark>
   </Document>
 </kml>
