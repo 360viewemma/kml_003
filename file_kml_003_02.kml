@@ -150,6 +150,25 @@
       </Polygon>
     </Placemark>
     <Placemark>
+      <name>xxty dt 2,670 m2</name>
+      <description>đất trống đang xác minh</description>
+      <styleUrl>#poly-CE93D8-1200-176</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              106.93330944388,10.405145417127,0
+              106.93307229895,10.405120799086,0
+              106.93299205874,10.406169173868,0
+              106.93318295333,10.406182028778,0
+              106.93330944388,10.405145417127,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
       <name>Vành đai 3</name>
       <description>Đang hoàn tất đền bù, một vài đoạn đã thi công xong.</description>
       <styleUrl>#line-097138-4875</styleUrl>
